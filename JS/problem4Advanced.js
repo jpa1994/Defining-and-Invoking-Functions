@@ -8,7 +8,7 @@ function getStats(...nums) {
     }
   
     let count = nums.length;
-    let sum = nums.reduce((acc, num) => acc + num, 0); // .reduce adds all values, acc carries result through array Ex: (0+3, 3+7, 10+10, 20+2, etc) acc is set to 0
+    let sum = nums.reduce((acc, num) => acc + num, 0); // .reduce adds all values, acc carries result through array Ex: (0+3, 3+7, 10+10, 20+2, etc) acc is set to 0, num is a parameter here
                                                         //* => shorthand for function sum{return}
     let min = Math.min(...nums); // Math.min finds smallest number
     let max = Math.max(...nums); // Math.max finds biggest number
